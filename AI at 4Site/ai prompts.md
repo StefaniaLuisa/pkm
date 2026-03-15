@@ -6,6 +6,14 @@ tags:
 
 ---
 
+---
+
+# **Meeting Intelligence Pipeline**
+
+<https://chatgpt.com/share/69b61833-e6c8-8008-9be6-def8c7a03063>
+
+---
+
 # Web Expert - Claude
 
 ## **Web Developer Expert**
