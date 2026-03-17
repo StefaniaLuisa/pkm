@@ -19,29 +19,12 @@ Last Edited: 2026-02-13T10:18
 
 ---
 
+## Tuesday, March 17
 
+- Looking forward to next quarter
+- May is a busy month - they will be traveling a lot during that month
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Next 
 
 ## Tuesday, March 3 Check-in
 
