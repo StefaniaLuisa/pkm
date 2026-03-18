@@ -16,12 +16,13 @@ Last Edited: '2025-12-28'
 
 ---
 
-## **Enable Yoast SEO Schema Aggregation - Est \~30 minutes** 
+## **Enable Yoast SEO Schema Aggregation - Est 1hr**
 
 Yoast just released a new opt-in feature called Schema Aggregation as part of Yoast SEO 27.1 (so we would need to make sure your plugin is updated to this version to enable).
 
 What this does is adds a new endpoint to your site that publishes your entire structured data (articles, authors, posts) and organizational information into an format called, "schemamap.” that is optimized for AI search engines to recieve all of your site’s content in one go and see the connected “picture”, rather than adhoc based on what has been scraped/crawled recently or not.
-**Our Recommendation: Enable this feature**
+
+**Our Recommendation - Enable this feature**
 We do recommend enabling Schema Aggregation for your site. It is a low-risk, forward-looking change that helps make sure  your content is accurately represented as AI becomes a bigger part of how people find your org’s content and information online.
 
 **What are the Pros?**
@@ -33,21 +34,16 @@ We do recommend enabling Schema Aggregation for your site. It is a low-risk, for
 - It uses cached responses and is designed to handle server load efficiently, so it should have no impact on site performance.
 - The feature was tested across real-world client sites before launch.
 
-
 **What are the Cons?**
-This does create a new public endpoint:
 
-- Enabling Schema Aggregation adds a URL to your site (e.g., /wp-json/yoast/v1/schema-aggregator/get-xml) that exposes your site's full structured data graph to anyone,  including AI systems, who requests it. For most sites, this is simply a more organized version of information already publicly available. However, if your site contains content you intentionally restrict from broad indexing or AI use, you should evaluate whether this is a good decision and aligns with your organization’s goals and content strategy before enabling it.
-- From what we are aware and know of your site’s content and structure you do not have many pages if any that are set to no-index so that search engines and Ai do not currently crawl.
-
-It’s new and in an early stage:
-
-- Like most of ai,  “Schema Aggregation” is a new the format not finalized or universally adopted yet, but its Microsoft so we do think that it will be a matter of time before wider adoption will take place
-- All of Agentic Search actively consuming schemamaps is still developing
-- It launched in March 2026. Yoast tested it in controlled environments with agency partners, it has not yet had a long track record in the wild.
-  - We can schedule this task for 3-4 months from now to give it some time to mature
-
-
+- This does create a new public endpoint:
+  - Enabling Schema Aggregation adds a URL to your site (e.g., /wp-json/yoast/v1/schema-aggregator/get-xml) that exposes your site's full structured data graph to anyone,  including AI systems, who requests it. For most sites, this is simply a more organized version of information already publicly available. However, if your site contains content you intentionally restrict from broad indexing or AI use, you should evaluate whether this is a good decision and aligns with your organization’s goals and content strategy before enabling it.
+  - From what we are aware and know of your site’s content and structure you do not have many pages if any that are set to no-index so that search engines and Ai do not currently crawl.
+- It’s new and in an early stage:
+  - Like most of ai,  “Schema Aggregation” is a new the format not finalized or universally adopted yet, but its Microsoft so we do think that it will be a matter of time before wider adoption will take place
+  - All of Agentic Search actively consuming schemamaps is still developing
+  - It launched in March 2026. Yoast tested it in controlled environments with agency partners, it has not yet had a long track record in the wild.
+    - We can schedule this task for 3-4 months from now to give it some time to mature
 
 Please let us know if this is something you would like us to enable, if not now in a couple of months?
 
