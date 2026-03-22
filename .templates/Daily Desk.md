@@ -1,4 +1,6 @@
-# Today: {{date}}
+# Daily Desk 
+
+## Today is {{date}}
 
 ## ~🔴Work To Do~
 
